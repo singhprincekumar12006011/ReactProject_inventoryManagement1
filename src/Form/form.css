@@ -1,0 +1,130 @@
+.formbody {
+  text-align: center;
+}
+
+.f1 {
+  background-color: #c89e9e;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 30px; /* Consolidated shorthand */
+  border-radius: 30px;
+}
+
+.h {
+  padding-bottom: 20px;
+}
+
+.b1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.bt {
+  margin-top: 20px;
+  padding: 5px;
+  margin-bottom: 30px;
+  font-size: medium;
+  border-radius: 10px;
+  background-color: rgb(184, 200, 200);
+}
+
+.field {
+  padding-left: 10px;
+  height: 25px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: rgb(217, 235, 235);
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 700px) {
+  .formbody{
+    text-align: center;
+  }
+  
+  .f1 {
+    background-color: #c89e9e;
+    
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-radius: 30px;
+    padding-bottom: 20px ;
+    padding-right: 30px;
+  
+  }
+  
+  .h{
+    padding-bottom: 20px;
+  }
+  
+  .b1{
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .bt{
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 30px;
+    font-size: medium;
+    border-radius: 10px;
+    background-color: rgb(184, 200, 200);
+  }
+  
+  .field {
+    height: 25px;
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgb(217, 235, 235);
+  }
+}
+
+.rd{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+
+/* Table css */
+.tablebody {
+  margin: 20px;
+  color: blue;
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.td{
+  width: 250px;
+  height: 20px;
+  font-size: 15px;
+}
+
+#td1 {
+  font-size: large;
+}
+
+.ac1 {
+  margin: 5px;
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: #405aee;
+}
+
+.ac2 {
+  margin: 5px;
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  background-color: #405aee;
+}
